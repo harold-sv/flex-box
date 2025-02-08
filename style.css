@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+header {
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+header > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+header > nav {
+  display: flex;
+  flex-grow: 1;
+  background-color: black;
+  justify-content: center;
+}
+.nav-list {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  justify-content: space-evenly;
+}
+.nav-list li a {
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.menu {
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  header > nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
+/*-----------------------header----------------------------*/
+#principal {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  min-height: 90vh;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#principal > img {
+  border-radius: 4px;
+  width: 35%;
+  max-width: 500px;
+  min-width: 300px;
+}
+.info {
+  width: 55%;
+  min-width: 300px;
+}
+.info > h1 {
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+}
+.info > p {
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+.info-2 > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+}
+button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  iframe {
+    width: 300px;
+    height: auto;
+  }
+}
+/*----------------------info adicional-----------------------------*/
+.direccion {
+  background-color: none;
+  width: 80%;
+  padding: 10px;
+  margin: 10%;
+  border: double 4px black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.videos {
+  padding: 3%;
+}
+.trailers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/*-----------------------------footer----------------------*/
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 15vh;
+  padding: 20px;
+  display: flex;
+  background-color: black;
+  border: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer > ul {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer > ul > li {
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+}
+footer ul li a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+footer > p {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+}
