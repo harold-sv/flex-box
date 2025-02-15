@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: white;
 }
+/*----------------header----------------------------*/
 header {
   background-color: black;
   display: flex;
@@ -49,7 +50,7 @@ header > nav {
     display: block;
   }
 }
-/*-----------------------header----------------------------*/
+/*-----------------------main----------------------------*/
 #principal {
   background-color: white;
   display: flex;
